@@ -9,8 +9,8 @@ const routes = express.Router();
 //Routes
 
 //User routes
-routes.post('/create_user', UserController.signup);
-routes.post('/login_user', UserController.signin);
+routes.post('/create_user', UserController.signup); //SIGN UP
+routes.post('/login_user', UserController.signin); //SIGN IN
 
 
 module.exports = routes;
