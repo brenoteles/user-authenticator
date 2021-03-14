@@ -1,0 +1,33 @@
+{
+  "name": "api_user_authentication",
+  "version": "1.0.0",
+  "description": "This API performs a simple authentication. Email, password, user type, token are the values used to perform the authentication.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "authentication",
+    "auth",
+    "user",
+    "type",
+    "password",
+    "email",
+    "token",
+    "sql",
+    "database",
+    "bcrypt",
+    "jwt"
+  ],
+  "author": "Breno Teles",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
+  }
+}
